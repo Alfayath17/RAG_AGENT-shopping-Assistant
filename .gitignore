@@ -1,0 +1,28 @@
+# Secrets
+.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Vector database (rebuilt automatically from products_catalog.pdf)
+chroma_db/
+
+# Runtime cart data (recreated automatically by mcp_server.py)
+cart.xlsx
+~$*.xlsx
+
+# Streamlit / tooling
+.streamlit/secrets.toml
+.pytest_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
